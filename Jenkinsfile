@@ -7,7 +7,7 @@ pipeline {
       a: {
        bat "javac HelloWorld.java"
         echo "Project Compiled"
-      }
+      },
       b: {
         bat "java HelloWorld"
         echo "Project executed"
