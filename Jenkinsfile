@@ -11,6 +11,7 @@ pipeline {
       steps {
         bat "java HelloWorld"
         echo "Project executed"
+      }
     }
   }
 }
