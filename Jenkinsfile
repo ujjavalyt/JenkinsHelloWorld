@@ -9,6 +9,7 @@ pipeline {
     }
     stage("Run Project") {
       steps {
+       input ("Do you want to execute the project?")
         bat "java HelloWorld"
         echo "Project executed"
       }
